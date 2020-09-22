@@ -1,7 +1,7 @@
 # Todo List
-[] Kick
-[] Ban
-[] Mute
-[] Unmute
-Have idea? edit Readme.md
+[x] Kick
+[x] Ban
+[x] Mute
+[x] Unmute
+Have idea? Go to Readme.md
 
