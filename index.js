@@ -38,4 +38,9 @@ bot.on('message', async message => {
 	if (commandfile) commandfile.run(bot, message, args);
 });
 
+bot.on('ready', async () {
+console.log("Im Active?")
+bot.user.setActivity("I am Aeither Bot", {type: "WATCHING"})
+})
+
 bot.login(config.token)
