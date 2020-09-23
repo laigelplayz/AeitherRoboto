@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
     if (!target) return message.reply('please specify a member to ban!');
     if (!reason) return message.reply('please specify a reason for this ban!');
     
-    let embed = new discord.RichEmbed()
+    let embed = new discord.MessageEmbed()
         .setColor('RANDOM')
         .setThumbnail(target.user.avatarURL)
         .addField('Banned Member', `${target.user.username}`)
