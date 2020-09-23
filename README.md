@@ -3,5 +3,6 @@
 - [ ] Ban
 - [ ] Mute
 - [ ] Unmute
-Have idea? Go to Readme.md
+- [x] AeitherPoints
+- Have idea? Go to Readme.md
 
